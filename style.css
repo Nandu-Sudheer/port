@@ -1,0 +1,167 @@
+
+*{
+    font-family:Roboto ;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    
+
+
+}
+
+nav ul li a{
+    justify-content:space-evenly ;
+    margin: 10px;
+    text-decoration:none;
+    color:black;
+}
+video{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+h1{
+    color: rgb(255, 255, 255);
+  
+}
+span{
+    color: chocolate;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#home::before{
+    content: "";
+    background-image: url(https://prod-media.beinsports.com/image/1694577602581_ea674bf1-d46e-4842-8fc2-80cfddc05c09.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset blueviolet;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 800px;
+    left:1%;
+    box-shadow: 4px 5px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    margin-left: 5px;
+    width:400px;
+
+}
+h3{
+   color: blue; 
+   text-align: center;
+   font-weight: bold;
+   text-shadow: 4px 5px 6px rgba(255, 0, 0, 0.763);
+   margin-top:20px;
+}
+.pic p{
+    text-align:justify ;
+    margin: 30px;
+}
+.pic h4{
+    color: chocolate;
+    font-style: italic;
+    text-align: center;
+}
+.gallery{
+   /* justify-content: space-around; */
+   box-shadow: 3px 4px 5px 8px blueviolet;
+}
+.gallery img{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border: solid 2px;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px 8px violet;
+}
+#projects h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: rgb(72, 100, 84);
+    background: linear-gradient(to top,rgb(158, 110, 158)50%, rgb(181, 181, 62)50%);
+    background-size:100% 200% ;
+    transition: all 0.5s;
+}
+.box:hover{
+    background-position: left bottom;
+    border: 4px ridge rgb(190, 92, 109);
+    box-shadow: 3px 4px 6px rgb(87, 174, 87);
+}
+.box img{
+    width: 80%;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box h4{
+    color:rgb(0, 140, 255) ;
+    text-align: center;
+    text-shadow: 3px 4px 5px white;
+}
+.box p{
+    text-align: justify;
+   padding: 10px;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: white;
+    background-color: black;
+}
+.cv{
+    /* background-color: black;
+    color: beige;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 70%; */
+}
